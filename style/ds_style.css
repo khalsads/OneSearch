@@ -1,0 +1,42 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+.g-signin2 {
+    width: 200px;
+    margin: 50px auto;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    ...
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    ...
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    ...
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    ...
+}
