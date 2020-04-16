@@ -12,10 +12,21 @@ html {
     box-sizing: inherit;
 }
 
-.g-signin2 {
-    width: 200px;
-    margin: 50px auto;
+/* Custom CSS */
+section {
+    height: 80vh;
+    padding-top: 5rem;
 }
+
+.px-ds {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.home_signedin {
+    display: none;
+}
+
 
 
 /* Extra small devices (portrait phones, less than 576px) */

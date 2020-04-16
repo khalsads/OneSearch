@@ -18,9 +18,6 @@
       content="142759808725-p0nel0fhs30b9lrng7si3o664956tu9i.apps.googleusercontent.com"
     />
 
-    <!-- My custom Style sheet -->
-    <link rel="stylesheet" href="style/ds_style.css" />
-
     <!-- Bootstrap Style Sheet link -->
     <link
       rel="stylesheet"
@@ -28,21 +25,84 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <!-- My custom Style sheet -->
+    <link rel="stylesheet" href="style/ds_style.css" />
   </head>
-  <body class="">
-    <header class=""></header>
-    <main class="">
-      <div class="g-signin2" data-onsuccess="onSignIn"></div>
-      <a href="#" onclick="signOut();">Sign out</a>
+  <body class="body">
+    <header class="header">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark px-ds">
+        <a class="navbar-brand mb-0 h1" href="#">One Search</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#Home"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#AboutUs">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <!--####### Home Section Start ##########-->
+      <section id="Home" class="bg-light">
+        <div
+          id="home_signin"
+          class="container-fluid d-flex align-items-center justify-content-center home_signin h-100"
+        >
+          <div class="col-sm-3 border rounded-lg p-5 shadow bg-white">
+            <p class="h4 m-0 pb-3">Sign In</p>
 
-      <!-- Div for Your Tube video -->
-      <!-- <div class="embed-responsive embed-responsive-16by9">
-        <iframe
-          class="embed-responsive-item"
-          src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
-          allowfullscreen
-        ></iframe>
-      </div> -->
+            <form>
+              <div class="form-group">
+                <label for="SignInEmail">Username</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="SignInEmail"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="form-group">
+                <label for="SignInPass">Password</label>
+                <input type="password" class="form-control" id="SignInPass" />
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+          <p class="h3 mx-3">-or- Sign In With</p>
+          <div class="g-signin2" data-onsuccess="onSignIn"></div>
+        </div>
+        <div id="home_signedin" class="home_signedin">
+          <p class="h3">Welcome Back...!</p>
+          <!-- Div for Your Tube video -->
+          <!--           <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+              allowfullscreen
+            ></iframe>
+          </div>
+ -->
+        </div>
+      </section>
+      <!--####### Home Section End #########-->
+
+      <section id="AboutUs" class="AboutUs"></section>
     </main>
     <footer class=""></footer>
 
