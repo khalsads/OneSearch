@@ -1,0 +1,1 @@
+<?php require_once('google_map/index.php')?>
