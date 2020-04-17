@@ -27,23 +27,5 @@
     <p class="h3 mx-3">-or- Sign In With</p>
     <div class="g-signin2" data-onsuccess="onSignIn"></div>
   </div>
-  <div id="home_signedin" class="home_signedin">
-    <div class="container-sm">
-      <form class="SearchForm" name="SearchForm" id="SearchForm">
-        <div class="form-group">
-          <label for="SearchInput">Search</label>
-          <input
-            type="text"
-            class="form-control col-6"
-            id="SearchInput"
-            placeholder="Enter Your Search"
-          />
-        </div>
-        <input type="submit" class="btn btn-primary" value="Search" />
-      </form>
-    </div>
-    <div class="SearchResult"></div>
-    <!-- Div for Your Tube video -->
-  </div>
 </section><!--####### Home Section End #########-->
 <?php require_once('master_layout/footer.php')?>
