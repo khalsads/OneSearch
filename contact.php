@@ -53,7 +53,7 @@
     <div class="col-7 pl-5">
       <div id="googleMap" class="LocationMap border rounded-lg"></div>
     </div>
-    <script src="script/google_map_script.js" async defer></script>
+    <script src="script/GoogleMapApi.js" async defer></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtcgzsvKiW2ogihYlW8PS0wgpZfD5_R2Q&callback=myMap"></script>
 </section>
 <?php require_once('master_layout/footer.php')?>

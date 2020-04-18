@@ -1,6 +1,6 @@
 <?php require_once('master_layout/header.php')?>
 <!--####### Home Section Start ##########-->
-<section id="Home" class="bg-light d-flex align-items-center">
+<section id="Home" class="d-flex align-items-center">
   <div
     id="home_signin"
     class="container-fluid d-flex align-items-center justify-content-center home_signin"

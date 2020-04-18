@@ -34,7 +34,7 @@
     <!-- My custom Style sheet -->
     <link rel="stylesheet" href="style/ds_style.css" />
   </head>
-  <body class="body">
+  <body class="body bg-light">
     <header class="header">
       <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark px-ds">
         <a class="navbar-brand mb-0 h1" href="#">One Search</a>
