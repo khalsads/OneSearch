@@ -3,7 +3,7 @@
 <section id="Home" class="d-flex align-items-center">
   <div
     id="home_signin"
-    class="container-fluid d-flex align-items-center justify-content-center home_signin"
+    class="container-fluid d-flex align-items-center justify-content-center home_signin pt-5"
   >
     <div class="col-sm-3 border rounded-lg p-5 shadow bg-white">
       <p class="h4 m-0 pb-3">Sign In</p>

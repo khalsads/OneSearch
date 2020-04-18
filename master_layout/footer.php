@@ -1,5 +1,5 @@
 </main>
-<footer class="page-footer font-small text-center p-5 bg-dark fixed-bottom">
+<footer class="page-footer font-small text-center p-5 bg-dark">
   <p class="h5">&copy 2020 : Designed and Developed By Dhanpreet Singh</p>
 </footer>
 

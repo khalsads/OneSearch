@@ -1,7 +1,7 @@
 <?php require_once('master_layout/header.php') ?>
 <section id="Contact" class="container-fluid bg-light">
   <h2 class="text-center mb-5">Contact</h2>
-  <div class="row">
+  <div class="row d-flex align-items-center">
     <div class="col-5">
     <div
       id="ContactFormContainer"

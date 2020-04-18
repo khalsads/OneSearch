@@ -14,8 +14,17 @@ html {
 
 /* Custom CSS */
 section {
-    min-height: 80vh;
+    min-height: 100%;
+}
+
+main {
     padding-top: 5rem;
+    min-height: calc(100vh - 120px);
+}
+
+footer {
+    position: relative;
+    clear: both;
 }
 
 .px-ds {
@@ -31,6 +40,8 @@ section {
 .home_signedin {
     display: none;
 }
+
+
 
 
 
