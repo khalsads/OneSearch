@@ -1,3 +1,4 @@
+<?php if (session_status() == PHP_SESSION_NONE) { session_start();  }?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -61,6 +62,15 @@
               <a class="nav-link" href=".\contact.php">Contact</a>
             </li>
           </ul>
+        </div>
+        <div class="loginout">
+          <?php
+            if( isset( $_SESSION['SignInID'] ) ) {
+              echo "<a href='LogOut.php'>Logout</a>";
+            }
+            else{
+              echo "<a href='index.php'>Sign In</a>";}
+          ?>
         </div>
       </nav>
     </header>

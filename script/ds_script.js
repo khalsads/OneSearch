@@ -15,3 +15,11 @@ function signOut() {
     console.log("User signed out.");
   });
 }
+$(document).ready(function () {
+  $(document).on("keyup", "#SignInID", function () {
+    if (this.value.match(/\D/)) {
+      // Credit : http://www.javascripter.net/faq/keyboardinputfiltering.htm
+      this.value = this.value.replace(/\D/g, "");
+    }
+  });
+});
